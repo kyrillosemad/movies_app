@@ -39,7 +39,6 @@ dependencies:
   sizer: ^2.0.14
   lottie: ^2.6.0
   carousel_slider: ^4.1.0
-  device_preview: ^1.0.0
   flutter_svg: ^1.0.3
   glassmorphism: ^3.0.0
   flutter_rating_bar: ^4.0.0

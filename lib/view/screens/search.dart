@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:movies_app/modules/constants.dart';
-import 'package:movies_app/modules/movie_model.dart';
-import 'package:movies_app/presentation/movie.dart';
+import 'package:movies_app/view/constants/constants.dart';
+import 'package:movies_app/models/movie_model.dart';
+import 'package:movies_app/view/screens/movie.dart';
 import 'package:sizer/sizer.dart';
 
 class MovieSearchDelegate extends SearchDelegate {

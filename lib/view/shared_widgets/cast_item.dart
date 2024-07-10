@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:movies_app/modules/constants.dart';
-import 'package:movies_app/modules/movie_model.dart';
+import 'package:movies_app/view/constants/constants.dart';
+import 'package:movies_app/data/data.dart';
 import 'package:sizer/sizer.dart';
 
-class Cast extends StatelessWidget {
-  const Cast({
+class CastItem extends StatelessWidget {
+  const CastItem({
     super.key,
     required this.kind,
     required this.index,

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:movies_app/modules/constants.dart';
+import 'package:movies_app/view/constants/constants.dart';
 import 'package:sizer/sizer.dart';
 
 class Trailer extends StatefulWidget {

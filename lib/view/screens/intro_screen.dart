@@ -2,8 +2,8 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:movies_app/modules/constants.dart';
-import 'package:movies_app/presentation/home_page.dart';
+import 'package:movies_app/view/constants/constants.dart';
+import 'package:movies_app/view/screens/home_page.dart';
 import 'package:sizer/sizer.dart';
 
 class IntroScreen extends StatefulWidget {
@@ -70,21 +70,21 @@ class _IntroScreenState extends State<IntroScreen> {
           ///////////////////////////////////////////////////////////////////////
           ////////////////////////////////////////////////////////////////////////
           Positioned(
-              top: 12.5.h,
+              top: 10.h,
               right: 9.5.w,
               child: CircleAvatar(
                 radius: 40.w,
                 backgroundColor: Constants.kPinkColor,
               )),
           Positioned(
-              top: 13.h,
+              top: 10.5.h,
               right: 8.5.w,
               child: CircleAvatar(
                 radius: 40.w,
                 backgroundColor: Constants.kGreenColor,
               )),
           Positioned(
-              top: 12.8.h,
+              top: 10.3.h,
               right: 9.w,
               child: CircleAvatar(
                   radius: 40.w,
@@ -97,7 +97,7 @@ class _IntroScreenState extends State<IntroScreen> {
           ///////////////////////////////////////////////////////////////////////
           ////////////////////////////////////////////////////////////////////////
           Positioned(
-              top: 50.h,
+              top: 45.h,
               child: SizedBox(
                 width: 100.w,
                 height: 50.h,
@@ -105,11 +105,11 @@ class _IntroScreenState extends State<IntroScreen> {
                     child: Column(
                   children: [
                     SizedBox(
-                      height: 7.h,
+                      height: 2.h,
                     ),
                     SizedBox(
                       width: 100.w,
-                      height: 15.h,
+                      height: 20.h,
                       child: Center(
                         child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
